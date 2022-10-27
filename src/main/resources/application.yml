@@ -1,1 +1,8 @@
-
+spring:
+    kafka:
+        bootstrap-servers: 35.185.185.192:9094
+        producer:
+            value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+        consumer:
+            value-deserializer: org.apache.kafka.common.serialization.ByteArrayDeserializer
+            group-id: consumer-group-test1

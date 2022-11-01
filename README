@@ -4,3 +4,8 @@ mvn clean compile
 mvn spring-boot:run
 # Kafka server IP and port address
 35.185.185.192:9094
+
+# Config folder for Config Kafka consumer, producer
+# PaymentServiceImpl.java for sending message to Kafka
+# PaymentHandler.java for recieving message from Kafka
+# application.yml for config value in spring boot

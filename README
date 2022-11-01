@@ -9,3 +9,5 @@ mvn spring-boot:run
 # PaymentServiceImpl.java for sending message to Kafka
 # PaymentHandler.java for recieving message from Kafka
 # application.yml for config value in spring boot
+
+# Project Description.docx each team do this project, deadline - 21/11/2022

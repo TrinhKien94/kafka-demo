@@ -1,0 +1,4 @@
+#To compile
+mvn clean compile
+#To run
+mvn spring-boot:run

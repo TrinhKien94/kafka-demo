@@ -2,3 +2,5 @@
 mvn clean compile
 #To run
 mvn spring-boot:run
+# Kafka server IP and port address
+35.185.185.192:9094
